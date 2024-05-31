@@ -1,4 +1,4 @@
-# Analysis of multivariate time-generation methods.
+# Analysis of multivariate time-generation methods
 Public repository to provide auxiliary material for the "Analysis of multivariate time-series generation methods" project. The project is part of the course "Analyzing the changing world" (LSI32004) of the University of Helsinki. 
 
 Abstract:
