@@ -1,0 +1,2 @@
+base_config = BaseConfig(seed=111, batch_size=256, device='cpu', p=3, q=3, hidden_dims=(50, 50, 50), total_steps=2000, mc_samples=1000, D_per_G_steps=3, lr_D=0.00028081956533967635, lr_G=0.0002843901408811914, lr_GMMN=0.0001)
+args = namespace(lr_D=0.00028081956533967635, lr_G=0.0002843901408811914, D_per_G_steps=3, batch_size=256, hidden_dims=(50, 50, 50), normalizer='standard', use_cuda=False, base_dir='./numerical_results', num_seeds=1, p=3, q=3, datasets=['HSL'], algos=['RCWGAN'], initial_seed=111, total_steps=2000, optim=True, trial_id='x29', skip_plots=False)

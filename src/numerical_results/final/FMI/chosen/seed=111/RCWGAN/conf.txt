@@ -1,0 +1,2 @@
+base_config = BaseConfig(seed=111, batch_size=4, device='cpu', p=3, q=3, hidden_dims=(50, 50, 50), total_steps=2000, mc_samples=1000, D_per_G_steps=3, lr_D=0.0008254591823107562, lr_G=0.00018918518003569916, lr_GMMN=0.0001)
+args = namespace(lr_D=0.0008254591823107562, lr_G=0.00018918518003569916, D_per_G_steps=3, batch_size=4, hidden_dims=(50, 50, 50), normalizer='standard', use_cuda=False, base_dir='./numerical_results', num_seeds=1, p=3, q=3, datasets=['FMI'], algos=['RCWGAN'], initial_seed=111, total_steps=2000, optim=True, trial_id='x1', skip_plots=False)

@@ -1,0 +1,2 @@
+base_config = BaseConfig(seed=111, batch_size=4, device='cpu', p=3, q=3, hidden_dims=(100, 100, 100), total_steps=2000, mc_samples=1000, D_per_G_steps=2, lr_D=0.0007085427288881808, lr_G=0.00011563801328485502, lr_GMMN=0.0001)
+args = namespace(lr_D=0.0007085427288881808, lr_G=0.00011563801328485502, D_per_G_steps=2, batch_size=4, hidden_dims=(100, 100, 100), normalizer='standard', use_cuda=False, base_dir='./numerical_results', num_seeds=1, p=3, q=3, datasets=['OMX'], algos=['RCGAN'], initial_seed=111, total_steps=2000, optim=True, trial_id='x32', skip_plots=False)

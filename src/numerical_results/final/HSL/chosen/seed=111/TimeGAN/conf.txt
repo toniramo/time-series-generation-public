@@ -1,0 +1,2 @@
+base_config = BaseConfig(seed=111, batch_size=512, device='cpu', p=3, q=3, hidden_dims=(70, 70, 70), total_steps=2000, mc_samples=1000, D_per_G_steps=4, lr_D=0.00015575362679548562, lr_G=5.7950167867075654e-05, lr_GMMN=0.0001)
+args = namespace(lr_D=0.00015575362679548562, lr_G=5.7950167867075654e-05, D_per_G_steps=4, batch_size=512, hidden_dims=(70, 70, 70), normalizer='standard', use_cuda=False, base_dir='./numerical_results', num_seeds=1, p=3, q=3, datasets=['HSL'], algos=['TimeGAN'], initial_seed=111, total_steps=2000, optim=True, trial_id='x8', skip_plots=False)

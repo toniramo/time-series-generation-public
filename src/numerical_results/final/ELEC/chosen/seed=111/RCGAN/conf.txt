@@ -1,0 +1,2 @@
+base_config = BaseConfig(seed=111, batch_size=4, device='cpu', p=3, q=3, hidden_dims=(70, 70, 70), total_steps=2000, mc_samples=1000, D_per_G_steps=4, lr_D=0.000348629361376632, lr_G=0.00019234777025021611, lr_GMMN=0.0001)
+args = namespace(lr_D=0.000348629361376632, lr_G=0.00019234777025021611, D_per_G_steps=4, batch_size=4, hidden_dims=(70, 70, 70), normalizer='minmax', use_cuda=False, base_dir='./numerical_results', num_seeds=1, p=3, q=3, datasets=['ELEC'], algos=['RCGAN'], initial_seed=111, total_steps=2000, optim=True, trial_id='x11', skip_plots=False)

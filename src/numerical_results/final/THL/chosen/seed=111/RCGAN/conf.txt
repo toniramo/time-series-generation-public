@@ -1,0 +1,2 @@
+base_config = BaseConfig(seed=111, batch_size=128, device='cpu', p=3, q=3, hidden_dims=(100, 100, 100), total_steps=2000, mc_samples=1000, D_per_G_steps=4, lr_D=8.186551055329192e-05, lr_G=0.00017046303728074138, lr_GMMN=0.0001)
+args = namespace(lr_D=8.186551055329192e-05, lr_G=0.00017046303728074138, D_per_G_steps=4, batch_size=128, hidden_dims=(100, 100, 100), normalizer='minmax', use_cuda=False, base_dir='./numerical_results', num_seeds=1, p=3, q=3, datasets=['THL'], algos=['RCGAN'], initial_seed=111, total_steps=2000, optim=True, trial_id='x17', skip_plots=False)
